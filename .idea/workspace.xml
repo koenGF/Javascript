@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H01/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/H01/javascript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,7 @@
       <updated>1605182892245</updated>
       <workItem from="1605182893434" duration="1001000" />
       <workItem from="1605185454505" duration="347000" />
+      <workItem from="1605199134971" duration="354000" />
     </task>
     <servers />
   </component>
