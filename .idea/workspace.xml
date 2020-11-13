@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="finished H01">
-      <change beforePath="$PROJECT_DIR$/../HTML-CSS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML-CSS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/H01/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H01/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/H01/javascript.js" afterDir="false" />
+    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="small changes">
+      <change afterPath="$PROJECT_DIR$/H02/divs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H02/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H02/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H02/img/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H02/img/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H02/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H02/stijl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H02/vulmetjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H02/vulmetjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Javascript.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Javascript.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,13 +45,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../HTML-CSS" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kBnXRiaFggbJpq6YhzUKeENC1N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -41,6 +68,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HTML-CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kgfro\Documents\github\Javascript\H02" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,7 +83,8 @@
       <updated>1605182892245</updated>
       <workItem from="1605182893434" duration="1001000" />
       <workItem from="1605185454505" duration="347000" />
-      <workItem from="1605199134971" duration="655000" />
+      <workItem from="1605199134971" duration="755000" />
+      <workItem from="1605257822606" duration="5378000" />
     </task>
     <task id="LOCAL-00001" summary="finished H01">
       <created>1605199607628</created>
@@ -60,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605199607628</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="small changes">
+      <created>1605199872576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605199872576</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,12 +116,18 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finished H01" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished H01" />
+    <MESSAGE value="small changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="small changes" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1605199755918">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1605199755918" />
     <state x="647" y="330" key="Github.ShareDialog" timestamp="1605185559109">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -90,5 +136,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="580" y="137" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1605185574869" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605199874249">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605199874249" />
   </component>
 </project>
