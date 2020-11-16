@@ -19,9 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="H02 WIP">
+    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="finished H02">
+      <change afterPath="$PROJECT_DIR$/H03/img/cat1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H03/img/cat2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H03/img/cat3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H03/img/cat4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H03/img/cat5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H03/img/cat6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H03/img/cat7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H03/img/cat8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H03/img/cat9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H03/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H02/stijl.js" beforeDir="false" afterPath="$PROJECT_DIR$/H02/stijl.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +43,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -51,6 +60,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -76,7 +86,7 @@
       <workItem from="1605257822606" duration="7409000" />
       <workItem from="1605271248680" duration="687000" />
       <workItem from="1605513735932" duration="1340000" />
-      <workItem from="1605519525826" duration="1960000" />
+      <workItem from="1605519525826" duration="5852000" />
     </task>
     <task id="LOCAL-00001" summary="finished H01">
       <created>1605199607628</created>
@@ -99,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605265633599</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finished H02">
+      <created>1605521563012</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605521563012</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,10 +135,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="finished H01" />
     <MESSAGE value="small changes" />
     <MESSAGE value="H02 WIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="H02 WIP" />
+    <MESSAGE value="finished H02" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished H02" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1605199755918">
@@ -136,10 +155,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="580" y="137" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1605185574869" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605265635801">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605521566143">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605265635801" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605521566143" />
     <state x="425" y="197" key="run.anything.popup" timestamp="1605266030547">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
