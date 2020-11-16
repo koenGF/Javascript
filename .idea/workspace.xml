@@ -20,17 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="finished H02">
-      <change afterPath="$PROJECT_DIR$/H03/img/cat1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H03/img/cat2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H03/img/cat3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H03/img/cat4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H03/img/cat5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H03/img/cat6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H03/img/cat7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H03/img/cat8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H03/img/cat9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H03/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H03/img/cat0.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H03/img/cat9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/H03/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/H03/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +81,7 @@
       <workItem from="1605271248680" duration="687000" />
       <workItem from="1605513735932" duration="1340000" />
       <workItem from="1605519525826" duration="5852000" />
+      <workItem from="1605538754818" duration="3481000" />
     </task>
     <task id="LOCAL-00001" summary="finished H01">
       <created>1605199607628</created>

@@ -26,8 +26,9 @@
     </style>
 </head>
 <body>
-<h1>CatShuffle</h1>
+<h1>Cat Shuffle</h1>
 <div id="pics">
+    <img src="img/cat0.jpg" alt="cat0">
     <img src="img/cat1.jpg" alt="cat1">
     <img src="img/cat2.jpg" alt="cat2">
     <img src="img/cat3.jpg" alt="cat3">
@@ -36,11 +37,31 @@
     <img src="img/cat6.jpg" alt="cat6">
     <img src="img/cat7.jpg" alt="cat7">
     <img src="img/cat8.jpg" alt="cat8">
-    <img src="img/cat9.jpg" alt="cat9">
 </div>
 <script>
-    var plaatjes = document.getElementsByTagName("img");
-    console.log(plaatjes);
+    var pictures = document.getElementsByTagName("img");
+    var randomNumbers = [];
+    var random = 0;
+
+    while (randomNumbers.length < 9) {
+        random = Math.floor(Math.random() * 9);
+        if (randomNumbers.lastIndexOf(random) === -1) {
+            randomNumbers.push(random);
+        }
+    }
+
+    for (let i = 0; i < pictures.length; i++) {
+        pictures[i].src = "img/cat" + randomNumbers[i] + ".jpg";
+    }
+    console.log(randomNumbers);
+
+
+/* snap deze loop niet, heb maar gewoon fori gedaan
+    for (var plaatje in pictures) {
+        pictures[plaatje].src = "img/cat" + randomNumbers[random] + ".jpg";
+        random++;
+    }
+*/
 </script>
 </body>
 </html>
