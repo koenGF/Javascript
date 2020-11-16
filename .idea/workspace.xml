@@ -19,20 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="small changes">
-      <change afterPath="$PROJECT_DIR$/H02/divs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H02/img/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H02/img/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H02/img/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H02/img/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H02/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H02/stijl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H02/vulmetjs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H02/vulmetjs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Javascript.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Javascript.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="H02 WIP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H02/stijl.js" beforeDir="false" afterPath="$PROJECT_DIR$/H02/stijl.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +73,10 @@
       <workItem from="1605182893434" duration="1001000" />
       <workItem from="1605185454505" duration="347000" />
       <workItem from="1605199134971" duration="755000" />
-      <workItem from="1605257822606" duration="5378000" />
+      <workItem from="1605257822606" duration="7409000" />
+      <workItem from="1605271248680" duration="687000" />
+      <workItem from="1605513735932" duration="1340000" />
+      <workItem from="1605519525826" duration="1960000" />
     </task>
     <task id="LOCAL-00001" summary="finished H01">
       <created>1605199607628</created>
@@ -100,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605199872576</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="H02 WIP">
+      <created>1605265633599</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605265633599</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +120,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finished H01" />
     <MESSAGE value="small changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="small changes" />
+    <MESSAGE value="H02 WIP" />
+    <option name="LAST_COMMIT_MESSAGE" value="H02 WIP" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1605199755918">
@@ -136,9 +136,13 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="580" y="137" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1605185574869" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605199874249">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605265635801">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605199874249" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605265635801" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1605266030547">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1605266030547" />
   </component>
 </project>
