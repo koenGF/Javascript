@@ -19,9 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="finished H04">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H04/crookapp.html" beforeDir="false" afterPath="$PROJECT_DIR$/H04/crookapp.html" afterDir="false" />
+    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="fix">
+      <change beforePath="$PROJECT_DIR$/H03/img/cat0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cat0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H03/img/cat1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cat1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H03/img/cat2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cat2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H03/img/cat3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cat3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H03/img/cat4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cat4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H03/img/cat5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cat5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H03/img/cat6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cat6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H03/img/cat7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cat7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H03/img/cat8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cat8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H03/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/H03/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +68,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kgfro\Documents\github\Javascript" />
       <recent name="C:\Users\kgfro\Documents\github\Javascript\H02" />
     </key>
   </component>
@@ -81,7 +90,7 @@
       <workItem from="1605538754818" duration="3909000" />
       <workItem from="1605544339947" duration="18000" />
       <workItem from="1605603070348" duration="6839000" />
-      <workItem from="1605617338985" duration="301000" />
+      <workItem from="1605617338985" duration="676000" />
     </task>
     <task id="LOCAL-00001" summary="finished H01">
       <created>1605199607628</created>
@@ -125,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605610474922</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix">
+      <created>1605617678874</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605617678874</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +167,8 @@
     <MESSAGE value="finished H02" />
     <MESSAGE value="finished H03, html &amp; javascript homepages link to eachother" />
     <MESSAGE value="finished H04" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished H04" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1605543909516">
@@ -166,10 +183,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="580" y="137" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1605185574869" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605543844219">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605617681418">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605543844219" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605617681418" />
     <state x="425" y="197" key="run.anything.popup" timestamp="1605266030547">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

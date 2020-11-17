@@ -13,13 +13,15 @@
     </style>
 </head>
 <body>
+
+
 <div id="slideholder"></div>
 <script>
     var teller = 0;
     var slideholder = document.getElementById("slideholder");
-    slideholder.style.backgroundImage = "url('../H03/img/cat0.jpg')";
+    slideholder.style.backgroundImage = "url('../img/cat0.jpg')";
     slideholder.addEventListener("click", function() {
-        slideholder.style.backgroundImage = "url('../H03/img/cat" + getCat() + ".jpg')";
+        slideholder.style.backgroundImage = "url('../img/cat" + getCat() + ".jpg')";
     });
 
     function getCat() {
