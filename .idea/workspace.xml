@@ -19,21 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="finished H03, html &amp; javascript homepages link to eachother">
-      <change afterPath="$PROJECT_DIR$/H04/car.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H04/crookapp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H04/imageslider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H04/img/H11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H04/img/H12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H04/img/H13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H04/img/H21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H04/img/H22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H04/img/H23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H04/img/H31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H04/img/H32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H04/img/H33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H04/index.html" afterDir="false" />
+    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="finished H04">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H04/crookapp.html" beforeDir="false" afterPath="$PROJECT_DIR$/H04/crookapp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +80,8 @@
       <workItem from="1605519525826" duration="5852000" />
       <workItem from="1605538754818" duration="3909000" />
       <workItem from="1605544339947" duration="18000" />
-      <workItem from="1605603070348" duration="6497000" />
+      <workItem from="1605603070348" duration="6839000" />
+      <workItem from="1605617338985" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="finished H01">
       <created>1605199607628</created>
@@ -129,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605543841599</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="finished H04">
+      <created>1605610474922</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605610474922</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +150,8 @@
     <MESSAGE value="H02 WIP" />
     <MESSAGE value="finished H02" />
     <MESSAGE value="finished H03, html &amp; javascript homepages link to eachother" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished H03, html &amp; javascript homepages link to eachother" />
+    <MESSAGE value="finished H04" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished H04" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1605543909516">
