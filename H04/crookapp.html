@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>crookapp</title>
+    <style>
+        div {
+            height: 170px;
+            width: 512px;
+            border-left: solid black 3px;
+            border-right: solid black 3px;
+            margin: auto;
+        }
+        div:first-child {
+            border-top: solid black 3px;
+        }
+        div:last-child {
+            border-bottom: solid black 3px;
+        }
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div id="div1"></div>
+<div id="div2"></div>
+<div id="div3"></div>
+<p>images from <a href="https://boredhumans.com/faces.php">boredhumans.com</a></p>
+<script>
+    //nogal lange code, kan vast beter
+    var teller1 = 1, teller2 = 1, teller3 = 1;
+    var div1 = document.getElementById("div1");
+    var div2 = document.getElementById("div2");
+    var div3 = document.getElementById("div3");
+    div1.style.backgroundImage = "url('./img/H11.jpg')";
+    div2.style.backgroundImage = "url('./img/H22.jpg')";
+    div3.style.backgroundImage = "url('./img/H33.jpg')";
+
+    div1.addEventListener("click", function() {
+        div1.style.backgroundImage = "url('./img/H" + getTop() + "1.jpg')";
+    });
+    function getTop() {
+        if(teller1 >= 3) {
+            teller1 = 1;
+        }
+        else {
+            teller1++;
+        }
+        console.log(teller1);
+        return teller1;
+    }
+
+    div2.addEventListener("click", function() {
+        div2.style.backgroundImage = "url('./img/H" + getMiddle() + "2.jpg')";
+    });
+    function getMiddle() {
+        if(teller2 >= 3) {
+            teller2 = 1;
+        }
+        else {
+            teller2++;
+        }
+        console.log(teller2);
+        return teller2;
+    }
+
+    div3.addEventListener("click", function() {
+        div3.style.backgroundImage = "url('./img/H" + getBottom() + "3.jpg')";
+    });
+    function getBottom() {
+        if(teller3 >= 3) {
+            teller3 = 1;
+        }
+        else {
+            teller3++;
+        }
+        console.log(teller3);
+        return teller3;
+    }
+</script>
+</body>
+</html>

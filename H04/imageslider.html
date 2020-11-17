@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>imageslider</title>
+    <style>
+        #slideholder {
+            height: 300px;
+            width: 300px;
+            border: solid black 3px;
+            transition: 1s;
+        }
+    </style>
+</head>
+<body>
+<div id="slideholder"></div>
+<script>
+    var teller = 0;
+    var slideholder = document.getElementById("slideholder");
+    slideholder.style.backgroundImage = "url('../H03/img/cat0.jpg')";
+    slideholder.addEventListener("click", function() {
+        slideholder.style.backgroundImage = "url('../H03/img/cat" + getCat() + ".jpg')";
+    });
+
+    function getCat() {
+       if(teller >= 8) {
+            teller = 0;
+       }
+       else {
+           teller++;
+       }
+        console.log(teller);
+        return teller;
+        }
+</script>
+</body>
+</html>

@@ -19,12 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="finished H02">
-      <change afterPath="$PROJECT_DIR$/H03/img/cat0.jpg" afterDir="false" />
+    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="finished H03, html &amp; javascript homepages link to eachother">
+      <change afterPath="$PROJECT_DIR$/H04/car.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H04/crookapp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H04/imageslider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H04/img/H11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H04/img/H12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H04/img/H13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H04/img/H21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H04/img/H22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H04/img/H23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H04/img/H31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H04/img/H32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H04/img/H33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H04/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H03/img/cat9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/H03/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/H03/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +46,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -58,7 +67,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HTML-CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HTML-CSS/index.html" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -81,7 +90,9 @@
       <workItem from="1605271248680" duration="687000" />
       <workItem from="1605513735932" duration="1340000" />
       <workItem from="1605519525826" duration="5852000" />
-      <workItem from="1605538754818" duration="3481000" />
+      <workItem from="1605538754818" duration="3909000" />
+      <workItem from="1605544339947" duration="18000" />
+      <workItem from="1605603070348" duration="6497000" />
     </task>
     <task id="LOCAL-00001" summary="finished H01">
       <created>1605199607628</created>
@@ -111,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605521563012</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finished H03, html &amp; javascript homepages link to eachother">
+      <created>1605543841599</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605543841599</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,13 +153,14 @@
     <MESSAGE value="small changes" />
     <MESSAGE value="H02 WIP" />
     <MESSAGE value="finished H02" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished H02" />
+    <MESSAGE value="finished H03, html &amp; javascript homepages link to eachother" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished H03, html &amp; javascript homepages link to eachother" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1605199755918">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1605543909516">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1605199755918" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1605543909516" />
     <state x="647" y="330" key="Github.ShareDialog" timestamp="1605185559109">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -150,10 +169,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="580" y="137" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1605185574869" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605521566143">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605543844219">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605521566143" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605543844219" />
     <state x="425" y="197" key="run.anything.popup" timestamp="1605266030547">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
