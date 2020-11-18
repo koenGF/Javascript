@@ -3,8 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <title>hoofdstuk 5</title>
-</head>
-<body>
+    <style>
+        body {
+            text-align: center;
+        }
 
+        div.picture-holder {
+            box-sizing: border-box;
+            height: 450px;
+            width: 300px;
+            float: left;
+            border: solid black 1px;
+        }
+
+        div.favorite {
+            width: 300px;
+            height: 150px;
+            background-image: none;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        div#pics {
+            width: 900px;
+            height: 1350px;
+            border: solid black 1px;
+            font-size: 0;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+<h1>Cat Chooser</h1>
+<h3>Choose your favorite cat!</h3>
+<div id="pics">
+
+</div> <!-- pics -->
+<script>
+    pics = document.getElementById("pics");
+    createPicsHolders()
+    createCatImages()
+
+    function createPicsHolders() {
+        for (let i = 0; i < 9; i++) {
+            pictureHolder = document.createElement("div");
+            pictureHolder.className = "picture-holder";
+            pictureHolder.id = "picture-holder" + i;
+            pics.appendChild(pictureHolder);
+        }
+    }
+
+    function createCatImages() {
+        pictureHolders = document.getElementsByClassName("picture-holder");
+        for (let i = 0; i < pictureHolders.length; i++) {
+            favorite = document.createElement("div");
+            favorite.className = "favorite";
+            favorite.id = "favorite-" + i;
+            catPicture = document.createElement("img");
+            catPicture.src = "../img/cat" + i + ".jpg";
+            catPicture.id = i;
+            catPicture.addEventListener("click", function() {
+                assignFavorite(this.id);
+            });
+            pictureHolders[i].appendChild(favorite);
+            pictureHolders[i].appendChild(catPicture);
+        }
+    }
+
+    function assignFavorite(id) {
+        notFavorite = document.getElementsByClassName("favorite");
+        for (let i = 0; i < notFavorite.length; i++) {
+            notFavorite[i].style.backgroundImage = "none";
+        }
+        favorite =  document.getElementById("favorite-" + id);
+        favorite.style.backgroundImage = "url('./heart.png')";
+    }
+</script>
 </body>
 </html>
