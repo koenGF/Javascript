@@ -9,7 +9,7 @@
             text-align: center;
             font-family: 'Roboto', sans-serif;
         }
-        div#game {
+        div#gamefield {
             margin: auto;
             width: 900px;
             height: 450px;
@@ -22,6 +22,13 @@
             border-bottom: solid black 1px;
             float: left;
             box-sizing: border-box;
+            background-color: gray;
+            background-position: center;
+            background-size: contain;
+            cursor: pointer;
+        }
+        div.tile:hover {
+            background-color: darkgray;
         }
         div.tile:nth-child(6n+0) {
             border-right: none;
@@ -34,30 +41,63 @@
             width: 150px;
             height: 30px;
             margin: auto;
+            cursor: pointer;
+        }
+
+        div#reset:hover {
+            background-color: darkgray;
         }
 
     </style>
 </head>
+
+
 <body>
 <h1>memory game</h1>
-<div id="game"></div> <!-- game -->
+<div id="gamefield">
+
+</div>
 <div id="reset">
     <h2>reset</h2>
 </div>
 
-<script>
-    createTiles();
-    game = document.getElementById("game");
 
+<script>
+    //stop plaatjes op willekeurige plek (nog onzichtbaar)
+    //bij click, geef background.
+    //click andere tile. zelfde? laat allebei staan. niet zelfde? verberg allebei (class?)
+    //reset knop. verwijder alle achtergronden, shuffle locaties
+
+
+    gamefield = document.getElementById("gamefield");
+    var randomNumbers = [];
+    var tiles = document.getElementsByClassName("tile");
+    reset = document.getElementById("reset");
+    createTiles();
 
     function createTiles() {
         for (let i = 0; i < 18; i++) {
             tile = document.createElement("div");
             tile.className = "tile";
-            tile.id = "tile_" + i;
-            game.appendChild(tile);
+            tile.id = "" + i;
+            gamefield.appendChild(tile);
+
+            tile.addEventListener("click", function() {
+                showBG(this.id);
+            });
         }
     }
+
+    function showBG(id) {
+        clicked = document.getElementById("" + id);
+        clicked.style.backgroundImage = "url('../img/cat" + id + ".jpg')";
+    }
+
+    reset.addEventListener("click", function() {
+        for (var empty in tiles) {
+            tiles[empty].style.backgroundImage = "none";
+        }
+    })
 </script>
 </body>
 </html>
