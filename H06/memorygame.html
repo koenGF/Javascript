@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>memorygame</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+        }
+        div#game {
+            margin: auto;
+            width: 900px;
+            height: 450px;
+            border: solid black 2px;
+        }
+        div.tile {
+            width: 150px;
+            height: 150px;
+            border-right: solid black 1px;
+            border-bottom: solid black 1px;
+            float: left;
+            box-sizing: border-box;
+        }
+        div.tile:nth-child(6n+0) {
+            border-right: none;
+        }
+        div.tile:nth-child(n+13) {
+            border-bottom: none;
+        }
+        div#reset {
+            background-color: gray;
+            width: 150px;
+            height: 30px;
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+<h1>memory game</h1>
+<div id="game"></div> <!-- game -->
+<div id="reset">
+    <h2>reset</h2>
+</div>
+
+<script>
+    createTiles();
+    game = document.getElementById("game");
+
+
+    function createTiles() {
+        for (let i = 0; i < 18; i++) {
+            tile = document.createElement("div");
+            tile.className = "tile";
+            tile.id = "tile_" + i;
+            game.appendChild(tile);
+        }
+    }
+</script>
+</body>
+</html>

@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="moved cat pictures, added H05 page &amp; link">
-      <change afterPath="$PROJECT_DIR$/H05/heart.png" afterDir="false" />
+    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="removed border">
+      <change afterPath="$PROJECT_DIR$/H06/memorygame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H05/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/H05/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H03/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/H03/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,9 @@
       <workItem from="1605544339947" duration="18000" />
       <workItem from="1605603070348" duration="6839000" />
       <workItem from="1605617338985" duration="1090000" />
-      <workItem from="1605695094874" duration="3979000" />
+      <workItem from="1605695094874" duration="4298000" />
+      <workItem from="1605783059576" duration="772000" />
+      <workItem from="1605785306744" duration="5241000" />
     </task>
     <task id="LOCAL-00001" summary="finished H01">
       <created>1605199607628</created>
@@ -142,7 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605618312349</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="finished H05">
+      <created>1605699124526</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605699124526</updated>
+    </task>
+    <task id="LOCAL-00010" summary="removed border">
+      <created>1605699243104</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605699243104</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +186,9 @@
     <MESSAGE value="finished H04" />
     <MESSAGE value="fix" />
     <MESSAGE value="moved cat pictures, added H05 page &amp; link" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved cat pictures, added H05 page &amp; link" />
+    <MESSAGE value="finished H05" />
+    <MESSAGE value="removed border" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed border" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1605543909516">
@@ -185,10 +203,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="580" y="137" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1605185574869" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605618314936">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605699246446">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605618314936" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605699246446" />
     <state x="425" y="197" key="run.anything.popup" timestamp="1605266030547">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

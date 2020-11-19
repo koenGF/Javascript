@@ -50,18 +50,10 @@
         }
     }
 
-    for (let i = 0; i < pictures.length; i++) {
-        pictures[i].src = "../img/cat" + randomNumbers[i] + ".jpg";
-    }
-    console.log(randomNumbers);
-
-
-/* snap deze loop niet, heb maar gewoon fori gedaan
     for (var plaatje in pictures) {
-        pictures[plaatje].src = "img/cat" + randomNumbers[random] + ".jpg";
-        random++;
+        pictures[plaatje].src = "../img/cat" + randomNumbers[plaatje] + ".jpg";
     }
-*/
+
 </script>
 </body>
 </html>
