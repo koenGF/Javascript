@@ -61,19 +61,40 @@
     <h2>reset</h2>
 </div>
 
-
 <script>
-    //stop plaatjes op willekeurige plek (nog onzichtbaar)
-    //bij click, geef background.
-    //click andere tile. zelfde? laat allebei staan. niet zelfde? verberg allebei (class?)
-    //reset knop. verwijder alle achtergronden, shuffle locaties
+    /*
+    stop plaatjes op willekeurige plek (nog onzichtbaar)
+    bij click, geef background.
+    click andere tile. zelfde? laat allebei staan. niet zelfde? verberg allebei (class?)
+    reset knop. verwijder alle achtergronden, shuffle locaties
+
+    array van 18, bevat alle plaatjes 2x. zelfde plaatjes hebben eigen class.
+    */
 
 
     gamefield = document.getElementById("gamefield");
     var randomNumbers = [];
+    var orderedPics = [];
     var tiles = document.getElementsByClassName("tile");
     reset = document.getElementById("reset");
+
     createTiles();
+
+//randomNumbers array
+    while (randomNumbers.length < 18) {
+        random = Math.floor(Math.random() * 18);
+        if (randomNumbers.lastIndexOf(random) === -1) {
+            randomNumbers.push(random);
+        }
+    }
+    console.log(randomNumbers);
+
+//orderedPics
+    for (let i = 0, j = 0; i < 18; i++ ,j+=0.5) {
+        orderedPics[i] = "url('../img/cat" + Math.floor(j) + ".jpg')";
+    }
+
+    console.log(orderedPics);
 
     function createTiles() {
         for (let i = 0; i < 18; i++) {
@@ -88,14 +109,17 @@
         }
     }
 
+
     function showBG(id) {
         clicked = document.getElementById("" + id);
-        clicked.style.backgroundImage = "url('../img/cat" + id + ".jpg')";
+        clicked.style.backgroundImage = orderedPics[id];
     }
 
+
+
     reset.addEventListener("click", function() {
-        for (var empty in tiles) {
-            tiles[empty].style.backgroundImage = "none";
+        for (var x in tiles) {
+            tiles[x].style.backgroundImage = "none";
         }
     })
 </script>
