@@ -43,23 +43,21 @@
             margin: auto;
             cursor: pointer;
         }
-
         div#reset:hover {
             background-color: darkgray;
         }
-
     </style>
 </head>
 
 
 <body>
-<h1>memory game</h1> <img src="./work.gif" alt="WIP">
-<div id="gamefield">
-
-</div>
+<h1>memory game</h1> <img src="work.gif" alt="WIP">
+<div id="gamefield"></div>
 <div id="reset">
     <h2>reset</h2>
 </div>
+
+
 
 <script>
     /*
@@ -83,9 +81,10 @@
 
 
 
-    var randomNumbers = [], orderedPics = [], shuffledPics = [];
-    var tiles = document.getElementsByClassName("tile");
-    let BgCounter = 0, lastTile1 = 0, lastTile2 = 0;
+    const randomNumbers = [], shuffledPics = [];
+    //var orderedPics = [];
+    const tiles = document.getElementsByClassName("tile");
+    let BgCounter = 0, lastTile1 = 0, lastTile2 = 0, points = 0;
     reset = document.getElementById("reset");
 
     createTiles();
@@ -116,7 +115,7 @@
         for (let i = 0; i < 18; i++) {
             tile = document.createElement("div");
             tile.className = "tile";
-            tile.id = i;
+            tile.id = "" + i;
             gamefield.appendChild(tile);
 
             tile.addEventListener("click", function() {
@@ -138,6 +137,10 @@
                 tiles[lastTile1].style.backgroundImage = "none";
                 tiles[lastTile2].style.backgroundImage = "none";
             }
+            else {
+                points++;
+                console.log(points + " point(s)");
+            }
             BgCounter = 0;
         }
         lastTile2 = lastTile1;
@@ -145,7 +148,7 @@
         BgCounter++;
     }
 
-//hide all BGs
+//reset
     reset.addEventListener("click", function() {
         for (let i = 0; i < 18; i++) {
             tiles[i].style.backgroundImage = "none";
