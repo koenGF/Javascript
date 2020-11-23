@@ -74,13 +74,18 @@
     2.click tile. -> show bg, x++.
     3. x>= 2? -> same picture? x=0, show bg
         different picture? hide bgs, show new bg
+
+
+    extra:
+    same picture? add ID to found array.
+    *click* in found array? don't change BgCounter.
     */
 
 
-    gamefield = document.getElementById("gamefield");
+
     var randomNumbers = [], orderedPics = [], shuffledPics = [];
     var tiles = document.getElementsByClassName("tile");
-    let BgCounter = 0;
+    let BgCounter = 0, lastTile1 = 0, lastTile2 = 0;
     reset = document.getElementById("reset");
 
     createTiles();
@@ -92,7 +97,6 @@
             randomNumbers.push(random);
         }
     }
-    console.log(randomNumbers);
 
 /*
 //orderedPics
@@ -107,29 +111,38 @@
             shuffledPics[randomNumbers[i]] = Math.floor(j);
     }
 
-    console.log(shuffledPics);
-
     function createTiles() {
+        gamefield = document.getElementById("gamefield");
         for (let i = 0; i < 18; i++) {
             tile = document.createElement("div");
             tile.className = "tile";
-            tile.id = "" + i;
+            tile.id = i;
             gamefield.appendChild(tile);
 
             tile.addEventListener("click", function() {
-                showBG(this.id);
                 checkSame(this.id);
+                showBG(this.id);
             });
         }
     }
 
-    function showBG(tileId) {
-        clicked = document.getElementById("" + tileId);
-        clicked.style.backgroundImage = "url('../img/cat" + shuffledPics[tileId] + ".jpg')";
+    function showBG(lastTile) {
+        clicked = document.getElementById(lastTile);
+        clicked.style.backgroundImage = "url('../img/cat" + shuffledPics[lastTile] + ".jpg')";
+
     }
 
-    function checkSame() {
-        console.log("test test");
+    function checkSame(lastTile) {
+        if(BgCounter >= 2) {
+            if(tiles[lastTile1].style.backgroundImage !== tiles[lastTile2].style.backgroundImage) {
+                tiles[lastTile1].style.backgroundImage = "none";
+                tiles[lastTile2].style.backgroundImage = "none";
+            }
+            BgCounter = 0;
+        }
+        lastTile2 = lastTile1;
+        lastTile1 = lastTile;
+        BgCounter++;
     }
 
 //hide all BGs

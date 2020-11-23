@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="randomNumbers array, orderedPics array">
+    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="shuffledPics, got started on checkSame">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/H06/memorygame.html" beforeDir="false" afterPath="$PROJECT_DIR$/H06/memorygame.html" afterDir="false" />
     </list>
@@ -88,7 +88,8 @@
       <workItem from="1605785306744" duration="5241000" />
       <workItem from="1605794422774" duration="5778000" />
       <workItem from="1605867311721" duration="4075000" />
-      <workItem from="1606124520232" duration="1958000" />
+      <workItem from="1606124520232" duration="2258000" />
+      <workItem from="1606134104308" duration="5543000" />
     </task>
     <task id="LOCAL-00001" summary="finished H01">
       <created>1605199607628</created>
@@ -181,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605871390279</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="shuffledPics, got started on checkSame">
+      <created>1606126782619</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606126782619</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +222,8 @@
     <MESSAGE value="memory game WIP" />
     <MESSAGE value="homepage link to H06" />
     <MESSAGE value="randomNumbers array, orderedPics array" />
-    <option name="LAST_COMMIT_MESSAGE" value="randomNumbers array, orderedPics array" />
+    <MESSAGE value="shuffledPics, got started on checkSame" />
+    <option name="LAST_COMMIT_MESSAGE" value="shuffledPics, got started on checkSame" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1605543909516">
