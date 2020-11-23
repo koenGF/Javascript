@@ -69,13 +69,18 @@
     reset knop. verwijder alle achtergronden, shuffle locaties
 
     array van 18, bevat alle plaatjes 2x. zelfde plaatjes hebben eigen class.
+
+    1.click tile. -> show bg, x=0 x++.
+    2.click tile. -> show bg, x++.
+    3. x>= 2? -> same picture? x=0, show bg
+        different picture? hide bgs, show new bg
     */
 
 
     gamefield = document.getElementById("gamefield");
-    var randomNumbers = [];
-    var orderedPics = [];
+    var randomNumbers = [], orderedPics = [], shuffledPics = [];
     var tiles = document.getElementsByClassName("tile");
+    let BgCounter = 0;
     reset = document.getElementById("reset");
 
     createTiles();
@@ -89,12 +94,20 @@
     }
     console.log(randomNumbers);
 
+/*
 //orderedPics
     for (let i = 0, j = 0; i < 18; i++ ,j+=0.5) {
-        orderedPics[i] = "url('../img/cat" + Math.floor(j) + ".jpg')";
+        orderedPics[i] = Math.floor(j);
+    }
+    console.log(orderedPics)
+*/
+
+//shuffledPics
+    for (let i = 0, j = 0; i < 18; i++, j+=0.5) {
+            shuffledPics[randomNumbers[i]] = Math.floor(j);
     }
 
-    console.log(orderedPics);
+    console.log(shuffledPics);
 
     function createTiles() {
         for (let i = 0; i < 18; i++) {
@@ -105,21 +118,24 @@
 
             tile.addEventListener("click", function() {
                 showBG(this.id);
+                checkSame(this.id);
             });
         }
     }
 
-
-    function showBG(id) {
-        clicked = document.getElementById("" + id);
-        clicked.style.backgroundImage = orderedPics[id];
+    function showBG(tileId) {
+        clicked = document.getElementById("" + tileId);
+        clicked.style.backgroundImage = "url('../img/cat" + shuffledPics[tileId] + ".jpg')";
     }
 
+    function checkSame() {
+        console.log("test test");
+    }
 
-
+//hide all BGs
     reset.addEventListener("click", function() {
-        for (var x in tiles) {
-            tiles[x].style.backgroundImage = "none";
+        for (let i = 0; i < 18; i++) {
+            tiles[i].style.backgroundImage = "none";
         }
     })
 </script>

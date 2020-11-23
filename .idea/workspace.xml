@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="homepage link to H06">
+    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="randomNumbers array, orderedPics array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/H06/memorygame.html" beforeDir="false" afterPath="$PROJECT_DIR$/H06/memorygame.html" afterDir="false" />
     </list>
@@ -87,7 +87,8 @@
       <workItem from="1605783059576" duration="772000" />
       <workItem from="1605785306744" duration="5241000" />
       <workItem from="1605794422774" duration="5778000" />
-      <workItem from="1605867311721" duration="3780000" />
+      <workItem from="1605867311721" duration="4075000" />
+      <workItem from="1606124520232" duration="1958000" />
     </task>
     <task id="LOCAL-00001" summary="finished H01">
       <created>1605199607628</created>
@@ -173,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605799809711</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="randomNumbers array, orderedPics array">
+      <created>1605871390279</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605871390279</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +213,8 @@
     <MESSAGE value="removed border" />
     <MESSAGE value="memory game WIP" />
     <MESSAGE value="homepage link to H06" />
-    <option name="LAST_COMMIT_MESSAGE" value="homepage link to H06" />
+    <MESSAGE value="randomNumbers array, orderedPics array" />
+    <option name="LAST_COMMIT_MESSAGE" value="randomNumbers array, orderedPics array" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1605543909516">
@@ -220,10 +229,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="580" y="137" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1605185574869" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605799811734">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605871392752">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605799811734" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605871392752" />
     <state x="425" y="197" key="run.anything.popup" timestamp="1605266030547">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
