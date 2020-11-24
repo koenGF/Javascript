@@ -61,34 +61,15 @@
 
 
 <script>
-    /*
-    stop plaatjes op willekeurige plek (nog onzichtbaar)
-    bij click, geef background.
-    click andere tile. zelfde? laat allebei staan. niet zelfde? verberg allebei (class?)
-    reset knop. verwijder alle achtergronden, shuffle locaties
-
-    array van 18, bevat alle plaatjes 2x. zelfde plaatjes hebben eigen class.
-
-    1.click tile. -> show bg, x=0 x++.
-    2.click tile. -> show bg, x++.
-    3. x>= 2? -> same picture? x=0, show bg
-        different picture? hide bgs, show new bg
-
-
-    extra:
-    same picture? add ID to found array.
-    *click* in found array? don't change BgCounter.
-    */
-
-
 
     const randomNumbers = [], shuffledPics = [], found = [];
-    //var orderedPics = [];
     const tiles = document.getElementsByClassName("tile");
     let BgCounter = 0, lastTile1 = -1, lastTile2 = -1, points = 0;
     reset = document.getElementById("reset");
 
     createTiles();
+
+
 
 //randomNumbers array
     while (randomNumbers.length < 18) {
@@ -97,19 +78,11 @@
             randomNumbers.push(random);
         }
     }
-
-/*
-//orderedPics
-    for (let i = 0, j = 0; i < 18; i++ ,j+=0.5) {
-        orderedPics[i] = Math.floor(j);
-    }
-    console.log(orderedPics)
-*/
-
 //shuffledPics
     for (let i = 0, j = 0; i < 18; i++, j+=0.5) {
             shuffledPics[randomNumbers[i]] = Math.floor(j);
     }
+
 
     function createTiles() {
         gamefield = document.getElementById("gamefield");
@@ -135,7 +108,6 @@
     }
 
     function checkSame(lastTile) {
-//        if(found.lastIndexOf(lastTile.style.backgroundImage) === -1) {
             if (BgCounter >= 2) {
                 if (tiles[lastTile1].style.backgroundImage !== tiles[lastTile2].style.backgroundImage) {
                     tiles[lastTile1].style.backgroundImage = "none";
@@ -152,7 +124,6 @@
             lastTile2 = lastTile1;
             lastTile1 = lastTile;
             BgCounter++;
-//        }
     }
 
 //reset
@@ -160,6 +131,7 @@
         for (let i = 0; i < 18; i++) {
             tiles[i].style.backgroundImage = "none";
             BgCounter = 0;
+            found.length = 0;
         }
     })
 </script>
