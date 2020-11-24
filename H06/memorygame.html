@@ -93,7 +93,6 @@
             gamefield.appendChild(tile);
 
             tile.addEventListener("click", function() {
-                console.log(shuffledPics[this.id]);
                 if(found.lastIndexOf(shuffledPics[this.id]) === -1) {
                     checkSame(this.id);
                     showBG(this.id);
@@ -132,6 +131,7 @@
             tiles[i].style.backgroundImage = "none";
             BgCounter = 0;
             found.length = 0;
+            console.clear();
         }
     })
 </script>
