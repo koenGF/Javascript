@@ -112,7 +112,7 @@
                     tiles[lastTile1].style.backgroundImage = "none";
                     tiles[lastTile2].style.backgroundImage = "none";
                 }
-                else {
+                else if(tiles[lastTile1] !== tiles[lastTile2]) {
                     points++;
                     found.push(shuffledPics[lastTile1]);
                     console.log(found);
@@ -131,6 +131,7 @@
             tiles[i].style.backgroundImage = "none";
             BgCounter = 0;
             found.length = 0;
+            points = 0;
             console.clear();
         }
     })
