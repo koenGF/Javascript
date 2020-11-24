@@ -107,8 +107,9 @@
     }
 
     function checkSame(lastTile) {
+        console.log(BgCounter);
             if (BgCounter >= 2) {
-                if (tiles[lastTile1].style.backgroundImage !== tiles[lastTile2].style.backgroundImage) {
+                if (tiles[lastTile1].style.backgroundImage !== tiles[lastTile2].style.backgroundImage || tiles[lastTile1] === tiles[lastTile2]) {
                     tiles[lastTile1].style.backgroundImage = "none";
                     tiles[lastTile2].style.backgroundImage = "none";
                 }
