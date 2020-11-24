@@ -51,7 +51,8 @@
 
 
 <body>
-<h1>memory game</h1> <img src="work.gif" alt="WIP">
+<h1>memory game</h1>
+<img src="work.gif" alt="WIP">
 <div id="gamefield"></div>
 <div id="reset">
     <h2>reset</h2>
@@ -81,10 +82,10 @@
 
 
 
-    const randomNumbers = [], shuffledPics = [];
+    const randomNumbers = [], shuffledPics = [], found = [];
     //var orderedPics = [];
     const tiles = document.getElementsByClassName("tile");
-    let BgCounter = 0, lastTile1 = 0, lastTile2 = 0, points = 0;
+    let BgCounter = 0, lastTile1 = -1, lastTile2 = -1, points = 0;
     reset = document.getElementById("reset");
 
     createTiles();
@@ -119,8 +120,11 @@
             gamefield.appendChild(tile);
 
             tile.addEventListener("click", function() {
-                checkSame(this.id);
-                showBG(this.id);
+                console.log(shuffledPics[this.id]);
+                if(found.lastIndexOf(shuffledPics[this.id]) === -1) {
+                    checkSame(this.id);
+                    showBG(this.id);
+                }
             });
         }
     }
@@ -128,30 +132,34 @@
     function showBG(lastTile) {
         clicked = document.getElementById(lastTile);
         clicked.style.backgroundImage = "url('../img/cat" + shuffledPics[lastTile] + ".jpg')";
-
     }
 
     function checkSame(lastTile) {
-        if(BgCounter >= 2) {
-            if(tiles[lastTile1].style.backgroundImage !== tiles[lastTile2].style.backgroundImage) {
-                tiles[lastTile1].style.backgroundImage = "none";
-                tiles[lastTile2].style.backgroundImage = "none";
+//        if(found.lastIndexOf(lastTile.style.backgroundImage) === -1) {
+            if (BgCounter >= 2) {
+                if (tiles[lastTile1].style.backgroundImage !== tiles[lastTile2].style.backgroundImage) {
+                    tiles[lastTile1].style.backgroundImage = "none";
+                    tiles[lastTile2].style.backgroundImage = "none";
+                }
+                else {
+                    points++;
+                    found.push(shuffledPics[lastTile1]);
+                    console.log(found);
+                    console.log(points + " point(s)");
+                }
+                BgCounter = 0;
             }
-            else {
-                points++;
-                console.log(points + " point(s)");
-            }
-            BgCounter = 0;
-        }
-        lastTile2 = lastTile1;
-        lastTile1 = lastTile;
-        BgCounter++;
+            lastTile2 = lastTile1;
+            lastTile1 = lastTile;
+            BgCounter++;
+//        }
     }
 
 //reset
     reset.addEventListener("click", function() {
         for (let i = 0; i < 18; i++) {
             tiles[i].style.backgroundImage = "none";
+            BgCounter = 0;
         }
     })
 </script>

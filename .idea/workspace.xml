@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="resolved errors" />
+    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H06/memorygame.html" beforeDir="false" afterPath="$PROJECT_DIR$/H06/memorygame.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +89,8 @@
       <workItem from="1605794422774" duration="5778000" />
       <workItem from="1605867311721" duration="4075000" />
       <workItem from="1606124520232" duration="2258000" />
-      <workItem from="1606134104308" duration="6699000" />
+      <workItem from="1606134104308" duration="7048000" />
+      <workItem from="1606211665233" duration="4282000" />
     </task>
     <task id="LOCAL-00001" summary="finished H01">
       <created>1605199607628</created>
@@ -200,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606141478051</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix">
+      <created>1606141750882</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1606141750882</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +237,6 @@
     <MESSAGE value="finished H02" />
     <MESSAGE value="finished H03, html &amp; javascript homepages link to eachother" />
     <MESSAGE value="finished H04" />
-    <MESSAGE value="fix" />
     <MESSAGE value="moved cat pictures, added H05 page &amp; link" />
     <MESSAGE value="finished H05" />
     <MESSAGE value="removed border" />
@@ -236,7 +246,8 @@
     <MESSAGE value="shuffledPics, got started on checkSame" />
     <MESSAGE value="finished(?) memory game" />
     <MESSAGE value="resolved errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="resolved errors" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1605543909516">
@@ -251,10 +262,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="580" y="137" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1605185574869" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606141480108">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606141753662">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1606141480108" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1606141753662" />
     <state x="425" y="197" key="run.anything.popup" timestamp="1605266030547">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
