@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="less console logs">
+    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="edit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H06/memorygame.html" beforeDir="false" afterPath="$PROJECT_DIR$/H06/memorygame.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HTML-CSS/index.html" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -92,7 +93,12 @@
       <workItem from="1606134104308" duration="7048000" />
       <workItem from="1606211665233" duration="11370000" />
       <workItem from="1606235026263" duration="757000" />
-      <workItem from="1606391523171" duration="909000" />
+      <workItem from="1606391523171" duration="1351000" />
+      <workItem from="1606562427880" duration="427000" />
+      <workItem from="1606562947787" duration="147000" />
+      <workItem from="1606563111445" duration="4000" />
+      <workItem from="1607600890826" duration="88000" />
+      <workItem from="1607601037836" duration="76000" />
     </task>
     <task id="LOCAL-00001" summary="finished H01">
       <created>1605199607628</created>
@@ -276,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606224761154</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="edit">
+      <created>1606392724431</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1606392724433</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +331,8 @@
     <MESSAGE value="moved }" />
     <MESSAGE value="same img same tile fix" />
     <MESSAGE value="less console logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="less console logs" />
+    <MESSAGE value="edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1605543909516">
@@ -333,10 +347,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="580" y="137" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1605185574869" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606224763060">
+    <state x="277" y="77" key="SettingsEditor" timestamp="1606563092253">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1606224763060" />
+    <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1606563092253" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606392726691">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1606392726691" />
     <state x="425" y="197" key="run.anything.popup" timestamp="1605266030547">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
