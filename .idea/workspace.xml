@@ -19,8 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="edit">
+    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="php link">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dicegame/dice-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dicegame/dice-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dicegame/dice-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dicegame/dice-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dicegame/dice-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dicegame/dice-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dicegame/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dicegame/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dicegame/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +52,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/dicegame/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php7.4.9" />
   <component name="ProjectId" id="1kBnXRiaFggbJpq6YhzUKeENC1N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,13 +66,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HTML-CSS/index.html" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.reader.mode" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -99,6 +122,8 @@
       <workItem from="1606563111445" duration="4000" />
       <workItem from="1607600890826" duration="88000" />
       <workItem from="1607601037836" duration="76000" />
+      <workItem from="1609770498297" duration="53000" />
+      <workItem from="1610626298991" duration="3329000" />
     </task>
     <task id="LOCAL-00001" summary="finished H01">
       <created>1605199607628</created>
@@ -289,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606392724433</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="php link">
+      <created>1609770533401</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1609770533401</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,32 +364,7 @@
     <MESSAGE value="same img same tile fix" />
     <MESSAGE value="less console logs" />
     <MESSAGE value="edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1605543909516">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1605543909516" />
-    <state x="647" y="330" key="Github.ShareDialog" timestamp="1605185559109">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="647" y="330" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1605185559109" />
-    <state x="580" y="137" key="Github.UntrackedFilesDialog" timestamp="1605185574869">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="580" y="137" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1605185574869" />
-    <state x="277" y="77" key="SettingsEditor" timestamp="1606563092253">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1606563092253" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606392726691">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1606392726691" />
-    <state x="425" y="197" key="run.anything.popup" timestamp="1605266030547">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1605266030547" />
+    <MESSAGE value="php link" />
+    <option name="LAST_COMMIT_MESSAGE" value="php link" />
   </component>
 </project>
