@@ -19,19 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="php link">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dicegame/dice-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dicegame/dice-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dicegame/dice-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dicegame/dice-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dicegame/dice-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dicegame/dice-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dicegame/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dicegame/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dicegame/style.css" afterDir="false" />
+    <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="dice game wip">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dicegame/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/dicegame/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dicegame/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dicegame/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +114,12 @@
       <workItem from="1607600890826" duration="88000" />
       <workItem from="1607601037836" duration="76000" />
       <workItem from="1609770498297" duration="53000" />
-      <workItem from="1610626298991" duration="3329000" />
+      <workItem from="1610626298991" duration="3472000" />
+      <workItem from="1611054735257" duration="2683000" />
+      <workItem from="1611060018966" duration="25000" />
+      <workItem from="1611229420692" duration="4972000" />
+      <workItem from="1611315530700" duration="1915000" />
+      <workItem from="1611323365321" duration="2650000" />
     </task>
     <task id="LOCAL-00001" summary="finished H01">
       <created>1605199607628</created>
@@ -321,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609770533401</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="dice game wip">
+      <created>1610629663526</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1610629663527</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,6 +368,7 @@
     <MESSAGE value="less console logs" />
     <MESSAGE value="edit" />
     <MESSAGE value="php link" />
-    <option name="LAST_COMMIT_MESSAGE" value="php link" />
+    <MESSAGE value="dice game wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="dice game wip" />
   </component>
 </project>
