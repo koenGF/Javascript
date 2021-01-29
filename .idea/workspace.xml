@@ -21,8 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="dice game wip">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dicegame/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/dicegame/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dicegame/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/dicegame/dicegame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dicegame/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dicegame/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/dicegame/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dicegame/dicegame.html" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php7.4.9" />
   <component name="ProjectId" id="1kBnXRiaFggbJpq6YhzUKeENC1N" />
@@ -64,6 +65,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HTML-CSS/index.html" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.reader.mode" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -120,6 +122,12 @@
       <workItem from="1611229420692" duration="4972000" />
       <workItem from="1611315530700" duration="1915000" />
       <workItem from="1611323365321" duration="2650000" />
+      <workItem from="1611576715071" duration="64000" />
+      <workItem from="1611655035733" duration="41000" />
+      <workItem from="1611655976781" duration="2290000" />
+      <workItem from="1611830126949" duration="1062000" />
+      <workItem from="1611835336860" duration="2606000" />
+      <workItem from="1611910709775" duration="1005000" />
     </task>
     <task id="LOCAL-00001" summary="finished H01">
       <created>1605199607628</created>
