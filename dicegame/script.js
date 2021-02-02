@@ -125,13 +125,13 @@ function winCheck() {
     (currentPlayer === 0) ? winCheckPlayer0() :  winCheckPlayer1();
 }
 function winCheckPlayer0() {
-    if (bankScorePlayer0 >= 10) {
+    if (bankScorePlayer0 >= 60) {
         player0SectionElement.classList.add("player--winner");
         activeGame = false;
     }
 }
 function winCheckPlayer1() {
-    if (bankScorePlayer1 >= 10) {
+    if (bankScorePlayer1 >= 60) {
         player1SectionElement.classList.add("player--winner");
         activeGame = false;
     }
