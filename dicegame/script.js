@@ -104,12 +104,12 @@ function toggleActivePlayerBackground() {
 }
 
 function actionHoldButton() {
+    if (!activeGame) return;
     addToBank();
     winCheck();
     switchPlayer();
 }
 function addToBank() {
-    if (!activeGame) return;
     (currentPlayer === 0) ? addToPlayer0Bank() : addToPlayer1Bank();
 }
 function addToPlayer0Bank() {

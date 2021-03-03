@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="021e741b-b751-4df1-81c7-2c831961010e" name="Default Changelist" comment="dice game finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dicegame/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dicegame/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +127,9 @@
       <workItem from="1611835336860" duration="2606000" />
       <workItem from="1611910709775" duration="1098000" />
       <workItem from="1611911883292" duration="9000" />
+      <workItem from="1612270301962" duration="67000" />
+      <workItem from="1612270868170" duration="16000" />
+      <workItem from="1614788631957" duration="919000" />
     </task>
     <task id="LOCAL-00001" summary="finished H01">
       <created>1605199607628</created>
@@ -337,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611911731174</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="win at 60 points">
+      <created>1612270356411</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1612270356411</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +368,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="small changes" />
     <MESSAGE value="H02 WIP" />
     <MESSAGE value="finished H02" />
     <MESSAGE value="finished H03, html &amp; javascript homepages link to eachother" />
@@ -382,6 +392,7 @@
     <MESSAGE value="php link" />
     <MESSAGE value="dice game wip" />
     <MESSAGE value="dice game finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="dice game finished" />
+    <MESSAGE value="win at 60 points" />
+    <option name="LAST_COMMIT_MESSAGE" value="win at 60 points" />
   </component>
 </project>
